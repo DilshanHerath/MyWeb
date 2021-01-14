@@ -1,0 +1,117 @@
+.txthhello{
+  color: #ffbc03;
+  font-family: 'Goldman', cursive;
+}
+
+.txtname{
+  font-family: 'Bungee', cursive;
+  background: -webkit-linear-gradient(#ffbc03, #0a0a0a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txtposition{
+  font-size: 20px;
+  font-family: 'Quantico', sans-serif;
+  color: #ffbc03;
+}
+
+.containe{
+  background: #343a40;
+  height: 400px;
+  margin: 0;
+  background-size: cover;
+}
+
+.txtheader{
+  color: aliceblue;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.txtheader:hover{
+  color: #9ca832;
+}
+
+.btnhire{
+  background: transparent;
+  border: 2px solid #9ca832;
+  border-radius: 10px;
+  height: 50px;
+  color: #9ca832;
+  width: 150px;
+}
+
+.btnhire:hover{
+ background: #9ca832;
+  color: white;
+  width: 205px;
+}
+
+.skills{
+  width: 50%;
+  margin: 60px auto;
+  color: white;
+}
+.skills li{
+  margin: 20px 0;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3 ;
+}
+.bar span{
+  height: 2px;
+  float: left;
+  background: red;
+}
+*{
+  list-style: none;
+}
+.html{
+  width: 90%;
+  animation: html 2s;
+}
+.css{
+  width: 90%;
+}
+.js{
+  width: 90%;
+}
+.rn{
+  width: 90%;
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+.txtlearn{
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  color: #9ca832;
+  cursor: pointer;
+}
+
+.txtlearn:hover{
+  color: white;
+  font-size: 17px;
+}
+.txtcontactdetails{
+  color: #09033d;
+  font-size: 12px;
+}
+.txtcontactdetails2{
+  color: #a1a1a1;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
