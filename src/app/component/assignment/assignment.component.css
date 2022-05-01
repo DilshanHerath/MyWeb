@@ -144,7 +144,7 @@
 }
 
 .line {
-  margin-top: -16.5%
+  margin-top: -16.2%
 }
 
 .tittle1 {
@@ -171,6 +171,7 @@
   height: 25vw;
   border-width: 20px;
   border-color: black;
+  margin-bottom: 5%;
 }
 
 .tittle3 {
@@ -609,7 +610,7 @@
   }
 
   .line {
-    margin-top: -19.5%
+    margin-top: -16.5%
   }
 
   .txtstore {
